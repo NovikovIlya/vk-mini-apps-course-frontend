@@ -9,7 +9,7 @@ import {
   Search,
   Spacing
 } from '@vkontakte/vkui';
-import { Icon28TuneOutline, Icon56SearchOutline } from '@vkontakte/icons';
+import {  Icon56SearchOutline } from '@vkontakte/icons';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
 
 import CatCard from '../../components/CatCard';
@@ -81,7 +81,7 @@ const CatsPanel = ({ id }: Props) => {
       <PanelHeader
         after={
           <PanelHeaderButton onClick={openFilters}>
-            <Icon28TuneOutline />
+           
           </PanelHeaderButton>
         }
       >
